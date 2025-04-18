@@ -2,10 +2,10 @@
 header('Content-Type: application/json');
 
 // Database configuration
-$host = 'YOUR_FREEDB_HOST'; // e.g., sql.freedb.tech
-$dbname = 'YOUR_FREEDB_DATABASE'; // e.g., freedb_automax
-$username = 'YOUR_FREEDB_USERNAME';
-$password = 'YOUR_FREEDB_PASSWORD';
+$host = 'sql.freedb.tech'; // e.g., sql.freedb.tech
+$dbname = 'freedb_registrationRobotics'; // e.g., freedb_automax
+$username = 'freedb_registrationRobotics';
+$password = 'bG7MyBFGE46X#ap';
 
 // Validate input data
 function validateInput($data) {
